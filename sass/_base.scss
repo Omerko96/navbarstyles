@@ -1,0 +1,40 @@
+//This file is just for BASE STYLES of every navigation bar
+@import "colors";
+@import "mixins";
+
+
+/* STYLING */
+.navbar{
+	background-color: $white;
+	margin: 50px 0px;
+	border: none;
+	.navbar-brand{
+		color: $blue;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+		@include transition (all linear 0.5s);
+		&:hover{
+			@include transition (all linear 0.5s);
+		}
+	}
+	.navbar-nav{
+		li{
+			a{
+				font-family: 'Raleway', sans-serif;
+				font-weight: 600;
+				text-transform: uppercase;
+				color: $grey;
+				margin: 0px 12px;
+				@include transition (all linear 0.5s);
+				&:hover{
+					color: darken( $grey, 20% );
+					@include transition (all linear 0.5s);
+				}&:focus{
+					color: $grey;
+				}
+			}
+		}
+	}
+}

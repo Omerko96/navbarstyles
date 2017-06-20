@@ -1,0 +1,897 @@
+//This is main css for Animations
+@import "colors";
+
+/* 1 X 1 */
+#one_x_one{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::after{
+			content: '';
+			width: 100%;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			@include transform (scaleX(0));
+			@include transition (all linear 0.3s);
+		}&:hover{
+			&::after{
+				@include transform (scaleX(1));
+				@include transition (all linear 0.3s);
+			}
+		}
+	}
+}
+
+/* 1 X 2 */
+#one_x_two{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::after{
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			bottom: 50%;
+			left: 0;
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::after{
+				width: 100%;
+				@include transition (all ease 0.3s);
+			}
+		}
+	}
+}
+
+/* 1 X 3 */
+#one_x_three{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::after{
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			bottom: 0%;
+			left: 20%;
+			@include transform (rotate(-45deg));
+			@include origin (0 50%);
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::after{
+				width: 70px;
+				@include transition (all ease 0.3s);
+			}
+		}
+	}
+}
+
+/* 1 X 4 */
+#one_x_four{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::after{
+			content: '';
+			width: 100%;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			bottom: -20%;
+			left: 0;
+			opacity: 0;
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::after{
+				bottom: 20%;
+				width: 100%;
+				opacity: 1;
+				@include transition (all ease 0.3s);
+			}
+		}
+	}
+}
+
+/* 1 X 5 */
+#one_x_five{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::after{
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			top: -20%;
+			left: 0;
+			opacity: 0;
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::after{
+				top: 20%;
+				width: 100%;
+				opacity: 1;
+				@include transition (all ease 0.3s);
+			}
+		}
+	}
+}
+
+/* 2 X 1 */
+#two_x_one{
+	li{
+		a{
+		position: relative;
+		display: inline-block;
+		}&::before{
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			top: 0;
+			left: 0;
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::before{
+				width: 100%;
+				@include transition (all ease 0.3s);
+			}
+		}&::after{
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::after{
+				width: 100%;
+				@include transition (all ease 0.3s);
+			}
+		}
+	}
+}
+
+/* 2 X 2 */
+#two_x_two{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::before{
+			content: '';
+			width: 30px;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			display: inline-block;
+			left: -20px;
+			bottom: 50%;
+			opacity: 0;
+			@include transition (all ease 0.3s);
+			@include transform (rotate(90deg));
+		}&:hover{
+			&::before{
+				left: -10px;
+				opacity: 1;
+				@include transition (all ease 0.3s);
+			}
+		}&::after{
+			content: '';
+			width: 30px;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			display: inline-block;
+			right: -20px;
+			bottom: 50%;
+			opacity: 0;
+			@include transition (all ease 0.3s);
+			@include transform (rotate(90deg));
+		}&:hover{
+			&:after{
+				right: -10px;
+				opacity: 1;
+				@include transition (all ease 0.3s);
+			}
+		}
+	}
+}
+
+/* 2 X 3 */
+#two_x_three{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::before{
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			top: 0%;
+			left: 20%;
+			@include transform (rotate(45deg));
+			@include origin (0 50%);
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::before{
+				width: 70px;
+				@include transition (all ease 0.3s);
+			}
+		}&::after{
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $blue;
+			position: absolute;
+			bottom: 0%;
+			left: 20%;
+			@include transform (rotate(-45deg));
+			@include origin (0 50%);
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::after{
+				width: 70px;
+				@include transition (all ease 0.3s);
+			}
+		}
+	}
+}
+
+/* 2 X 4 */
+#two_x_four{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::before{
+			content: '[';
+			color: $blue;
+			position: absolute;
+			font-size: 20px;
+			font-weight: bold;
+			display: inline-block;
+			top: 20%;
+			opacity: 0;
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::before{
+				opacity: 1;
+				@include transition (all ease 0.3s);
+				@include transform (translateX(-10px));
+			}
+		}&::after{
+			content: ']';
+			color: $blue;
+			position: absolute;
+			font-size: 20px;
+			font-weight: bold;
+			display: inline-block;
+			top: 20%;
+			opacity: 0;
+			@include transition (all ease 0.3s);
+		}&:hover{
+			&::after{
+				opacity: 1;
+				@include transition (all ease 0.3s);
+				@include transform (translateX(6px));
+			}
+		}
+	}
+}
+
+/* 2 X 5 */
+#two_x_five{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+		}&::before{
+			content: '';
+			position: absolute;
+			background-color: $blue;
+			bottom: 0;
+			left: 0;
+			height: 3px;
+			width: 100%;
+			@include transform (scaleX(0));
+			@include transition (all linear 0.3s);
+		}&:hover{
+			&::before{
+				@include transform (scaleX(1));
+				@include transition (all linear 0.3s);
+			}
+		}&::after{
+			content: '';
+			position: absolute;
+			background-color: $blue;
+			bottom: 0;
+			left: 0;
+			height: 3px;
+			width: 100%;
+			opacity: 0;
+			@include transition (all linear 0.3s);
+		}&:hover{
+			&::after{
+				bottom: 100%;
+				opacity: 1;
+				@include transition (all linear 0.3s);
+			}
+		}
+	}
+}
+
+/* 3 X 1 */
+#three_x_one{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			@include transition (all linear 0.4s);
+		}&:hover{
+			box-shadow: inset 100px 0 0 0 $blue;
+			@include transition (all linear 0.4s);
+		}
+	}
+}
+
+/* 3 X 2 */
+#three_x_two{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			@include transition (all linear 0.4s);
+		}:hover{
+			opacity: 0.9;
+			text-shadow: 10px 10px $blue;
+			color: $blue;
+			@include transform (scale(0.9));
+		}
+	}
+}
+
+/* 3 X 3 */
+#three_x_three{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			@include transition (all linear 0.7s);
+		}&:hover{
+			box-shadow: inset 0 100px 0 0 $blue;
+			@include transition (all linear 0.7s);
+		}
+	}
+}
+
+/* 3 X 4 */
+#three_x_four{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-image: linear-gradient(
+				to right,
+				$blue,
+				$blue 50%,
+				$grey 50%);
+			background-size: 200% 100%;
+			background-position: 100%;
+			@include transition (all linear 0.6s);
+			&:hover{
+			background-position: 0%;
+			@include transition (all 0.6s cubic-bezier(0.000, 0.000, 0.230, 1));
+		}
+		}
+	}
+}
+
+/* 3 X 5 */
+#three_x_five{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			&::before{
+				color: $blue;
+				position: absolute;
+				content: attr(data-hover);
+				opacity: 0;
+				@include transform (translateX(20px) translateY(-20px) rotate(10deg) scale(1.1));
+				@include transition (all linear 0.5s);
+			}&:hover{
+				&::before{
+					@include transition (all linear 0.5s);
+					@include transform (translateX(0px) translateY(0px) rotate(0deg) scale(1));
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+/* 4 X 1 */
+#four_x_one{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			&::before{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 3px solid $blue;
+				content: '';
+				opacity: 0;
+				@include transition(all linear 0.3s);
+			}
+			&::after{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 3px solid $blue;
+				opacity: 0;
+				content: '';
+				@include transition(all linear 0.3s);
+				@include transform (translateY(-7px) translateX(6px));
+			}
+			&:hover{
+				&::before{
+					opacity: 0;
+					@include transform(translateY(5px) translateX(-5px));
+				}&::after{
+					opacity: 1;
+					@include transform(translateY(0px) translateX(0px));
+				}
+			}
+		}
+	}
+}
+
+/* 4 X 2 */
+#four_x_two{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			&::before{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 3px solid $blue;
+				content: '';
+				opacity: 0;
+				@include transition(all linear 0.5s);
+			}&:hover{
+				&::before{
+					opacity: 1;
+					@include transform(rotate(180deg));
+				}
+			}
+		}
+	}
+}
+
+/* 4 X 3 */
+#four_x_three{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			&::before{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border-left: 3px solid $blue;
+				border-bottom: 3px solid $blue;
+				content: '';
+				@include transform(scale(0));
+				@include transition(all linear 0.5s);
+				@include origin(0 100%);
+			}&::after{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border-right: 3px solid $blue;
+				border-top: 3px solid $blue;
+				content: '';
+				@include transform(scale(0));
+				@include transition(all linear 0.5s);
+				@include origin(100% 0);
+			}&:hover{
+				&::before{
+					@include transform(scale(1));
+					@include transition(all linear 0.5s);
+				}&::after{
+					@include transform(scale(1));
+					@include transition(all linear 0.5s);
+				}
+			}
+		}
+	}
+}
+
+/* 4 X 4 */
+#four_x_four{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			&::before{
+				position: absolute;
+				content: '';
+				top: 0;
+				left: 0;
+				border: 3px solid $blue;
+				width: 100%;
+				height: 100%;
+				@include transform(scale(0));
+				@include transition(all linear 0.5s);
+			}&:hover{
+				&::before{
+					@include transform(scale(1));
+					@include transition(all linear 0.5s);
+				}
+			}
+		}
+	}
+}
+
+/* 4 X 5 */
+#four_x_five{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			&::before{
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 0;
+				height: 0;
+				border: 3px solid transparent;
+				@include animation(animateOut 0.7s linear forwards);
+			}&::after{
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 0;
+				height: 0;
+				border: 3px solid transparent;
+				@include animation(animate2Out 0.7s linear forwards);
+			}&:hover{
+				&::before{
+					@include animation(animate 0.7s linear forwards);
+				}&::after{
+					@include animation(animate2 0.7s linear forwards);
+				}
+			}
+		}
+	}
+}
+
+/* 5 X 1 */
+#five_x_one{
+	li{
+		a{
+			position: relative;
+			@include transition(all 0.5s);
+			@include transform-style(preserve-3d);
+			color: transparent;
+			&::before{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 15px 8px;
+				background-color: $blue;
+				color: $white;
+				@include transition(all 0.5s);
+				@include origin(right);
+				@include transform(translateX(-100%) rotateY(90deg));
+			}&::after{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: $grey;
+				color: $white;
+				padding: 15px 8px;
+				@include transition(all 0.5s);
+				@include origin(left);
+				@include transform(translateX(0) rotateY(0));
+			}&:hover{
+				&::before{
+					@include transform(translateX(0) rotateY(0));
+				}&::after{
+					@include transform(translateX(100%) rotateY(90deg));
+				}
+			}
+		}
+	}
+}
+
+/* 5 X 2 */
+#five_x_two{
+	li{
+		a{
+			position: relative;
+			@include transition(all 0.5s);
+			@include transform-style(preserve-3d);
+			color: transparent;
+			&::before{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 15px 8px;
+				background-color: $blue;
+				color: $white;
+				@include transition(all 0.5s);
+				@include origin(top);
+				@include transform(translateY(100%) rotateX(90deg));
+			}&::after{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: $grey;
+				color: $white;
+				padding: 15px 8px;
+				@include transition(all 0.5s);
+				@include origin(bottom);
+				@include transform(translateY(0) rotateX(0));
+			}&:hover{
+				&::before{
+					@include transform(translateY(0) rotateX(0));
+				}&::after{
+					@include transform(translateY(-100%) rotateX(90deg));
+				}
+			}
+		}
+	}
+}
+
+/* 5 X 3 */
+#five_x_three{
+	li{
+		a{
+			position: relative;
+			@include transition(all 0.5s);
+			@include transform-style(preserve-3d);
+			color: transparent;
+			&::before{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 15px 8px;
+				background-color: $blue;
+				color: $white;
+				@include transition(all 0.5s);
+				@include origin(left);
+				@include transform(translateX(100%) rotateY(90deg));
+			}&::after{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: $grey;
+				color: $white;
+				padding: 15px 8px;
+				@include transition(all 0.5s);
+				@include origin(right);
+				@include transform(translateX(0) rotateY(0));
+			}&:hover{
+				&::before{
+					@include transform(translateX(0) rotateY(0));
+				}&::after{
+					@include transform(translateX(-100%) rotateY(90deg));
+				}
+			}
+		}
+	}
+}
+
+/* 5 X 4 */
+#five_x_four{
+	li{
+		a{
+			position: relative;
+			@include transition(all 0.5s);
+			@include transform-style(preserve-3d);
+			color: transparent;
+			&::before{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 15px 8px;
+				background-color: $blue;
+				color: $white;
+				@include transition(all 0.5s);
+				@include origin(bottom);
+				@include transform(translateY(-100%) rotateX(90deg));
+			}&::after{
+				content: attr(data-hover);
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: $grey;
+				color: $white;
+				padding: 15px 8px;
+				@include transition(all 0.5s);
+				@include origin(top);
+				@include transform(translateY(0) rotateX(0));
+			}&:hover{
+				&::before{
+					@include transform(translateY(0) rotateX(0));
+				}&::after{
+					@include transform(translateY(100%) rotateX(90deg));
+				}
+			}
+		}
+	}
+}
+
+/* 5 X 5 */
+#five_x_five{
+	li{
+		a{
+			position: relative;
+			display: inline-block;
+			background-color: $blue;
+			color: $white;
+			box-shadow: 3px 3px $grey;
+			@include transition(all 75ms ease-in-out);
+			&:active{
+				bottom: -3px;
+				right: -3px;
+				box-shadow: 0px 0px $grey;
+			}
+		}
+	}
+}
+
+/* KEYFRAMES */
+@keyframes animate{
+	0%{
+		width: 0;
+		height: 0;
+		border-top-color: $blue;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+	50%{
+		width: 100%;
+		height: 0;
+		border-top-color: $blue;
+		border-right-color: $blue;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+	100%{
+		width: 100%;
+		height: 100%;
+		border-top-color: $blue;
+		border-right-color: $blue;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+}
+
+@keyframes animateOut{
+	100%{
+		width: 0;
+		height: 0;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+	50%{
+		width: 100%;
+		height: 0;
+		border-top-color: $blue;
+		border-right-color: $blue;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+	0%{
+		width: 100%;
+		height: 100%;
+		border-top-color: $blue;
+		border-right-color: $blue;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+}
+
+
+@keyframes animate2{
+	0%{
+		width: 0;
+		height: 0;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: $blue;
+	}
+	50%{
+		width: 0;
+		height: 100%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: $blue;
+		border-left-color: $blue;
+	}
+	100%{
+		width: 100%;
+		height: 100%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: $blue;
+		border-left-color: $blue;
+	}
+}
+
+@keyframes animate2Out{
+	100%{
+		width: 0;
+		height: 0;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+	50%{
+		width: 0;
+		height: 100%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: $blue;
+		border-left-color: $blue;
+	}
+	0%{
+		width: 100%;
+		height: 100%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: $blue;
+		border-left-color: $blue;
+	}
+}

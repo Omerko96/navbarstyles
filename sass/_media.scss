@@ -1,0 +1,426 @@
+/* Smaller Phones */
+@media screen
+and ( min-width: 320px )
+and ( max-width: 480px ){
+	.navbar{
+		margin: 39px 0px !important;
+	}
+	header{
+		padding: 40px 0px !important;
+		h1{
+			font-size: 30px;
+		}
+		h3{
+			font-size: 24px;
+			line-height: 30px;
+			padding: 0px !important;
+		}
+	}
+	#entry{
+		padding: 110px 0px !important;
+		h2{
+			font-size: 30px;
+		}
+		p{
+			padding: 20px 0px !important;
+			line-height: 30px;
+		}
+	}
+	#first_styles{
+		padding: 10px 0px !important;
+	}
+	#divider_ein{
+		padding: 110px 0px !important;
+		h2{
+			font-size: 30px;
+		}
+		p{
+			padding: 20px 0px !important;
+			line-height: 30px;
+		}
+	}
+	#second_styles{
+		padding: 10px 0px !important;
+	}
+	#divider_zwei{
+		padding: 110px 0px !important;
+		h2{
+			font-size: 30px;
+		}
+		p{
+			padding: 20px 0px !important;
+			line-height: 30px;
+		}
+	}
+	#third_styles{
+		padding: 10px 0px !important;
+	}
+	#divider_drei{
+		padding: 110px 0px !important;
+		h2{
+			font-size: 30px;
+		}
+		p{
+			padding: 20px 0px !important;
+			line-height: 30px;
+		}
+	}
+	#fourth_styles{
+		padding: 0px 0px !important;
+	}
+	#divider_vier{
+		padding: 110px 0px !important;
+		h2{
+			font-size: 30px;
+		}
+		p{
+			padding: 20px 0px !important;
+			line-height: 30px;
+		}
+	}
+	#fifth_styles{
+		padding: 0px 0px !important;
+		.navbar{
+			li{
+				a{
+					margin: 12px 0px !important;
+				}
+			}
+		}
+	}
+	#pre_footer{
+		padding: 20px 0px !important;
+		h2{
+			font-size: 30px;
+		}
+		p{
+			padding: 20px 0px !important;
+			line-height: 30px;
+		}
+	}
+}
+
+/* Smaller Phones Landscape */
+@media screen
+and ( min-width: 320px )
+and ( max-width: 480px )
+and ( orientation: landscape ){
+	.navbar{
+		margin: 10px 0px !important;
+	}
+	header{
+		padding: 10px 0px 30px 0px !important;
+	}
+	#entry{
+		padding: 30px 0px !important;
+	}
+	#divider_ein{
+		padding: 30px 0px !important;
+	}
+	#divider_zwei{
+		padding: 30px 0px !important;
+	}
+	#divider_drei{
+		padding: 30px 0px !important;
+	}
+	#divider_vier{
+		padding: 30px 0px !important;
+	}
+}
+
+/* Smarth Phones */
+@media screen
+and ( min-width: 481px )
+and ( max-width: 767px ){
+	.navbar{
+		margin: 90px 0px !important;
+	}
+	header{
+		padding: 121px 0px !important;
+		h1{
+			font-size: 54px;
+		}
+		h3{
+			padding: 60px 0px !important;
+		}
+	}
+	#entry{
+		padding: 230px 0px !important;
+		h2{
+			font-size: 50px;
+		}
+		p{
+			padding: 30px !important;
+			line-height: 30px;
+		}
+	}
+	#first_styles{
+		padding: 20px 0px !important;
+	}
+	#divider_ein{
+		padding: 230px 0px !important;
+		h2{
+			font-size: 50px;
+		}
+		p{
+			padding: 30px !important;
+			line-height: 30px;
+		}
+	}
+	#second_styles{
+		padding: 20px 0px !important;
+	}
+	#divider_zwei{
+		padding: 200px 0px !important;
+		h2{
+			font-size: 50px;
+		}
+		p{
+			padding: 30px !important;
+			line-height: 30px;
+		}
+	}
+	#third_styles{
+		padding: 0px 0px !important;
+	}
+	#divider_drei{
+		padding: 230px 0px !important;
+		h2{
+			font-size: 50px;
+		}
+		p{
+			padding: 30px !important;
+			line-height: 30px;
+		}
+	}
+	#fourth_styles{
+		padding: 0px 0px !important;
+	}
+	#divider_vier{
+		padding: 230px 0px !important;
+		h2{
+			font-size: 50px;
+		}
+		p{
+			padding: 30px !important;
+			line-height: 30px;
+		}
+	}
+	#fifth_styles{
+		padding: 0px 0px !important;
+		.navbar{
+			li{
+				a{
+					margin: 12px 0px !important;
+				}
+			}
+		}
+	}
+	#pre_footer{
+		padding: 100px 0px !important;
+		h2{
+			font-size: 50px;
+		}
+		p{
+			padding: 30px !important;
+			line-height: 30px !important;
+		}
+	}
+}
+
+/* Smarth Phones Landscape */
+@media screen
+and ( min-width: 481px )
+and ( max-width: 767px )
+and ( orientation: landscape ){
+	.navbar{
+		margin: 40px 0px !important;
+	}
+	header{
+		padding: 50px 0px !important;
+		h1{
+			font-size: 54px;
+		}
+		h3{
+			padding: 30px 0px !important;
+		}
+	}
+	#entry{
+		padding: 100px 0px !important;
+	}
+	#divider_ein{
+		padding: 100px 0px !important;
+	}
+	#divider_zwei{
+		padding: 100px 0px !important;
+	}
+	#divider_drei{
+		padding: 100px 0px !important;
+	}
+	#divider_vier{
+		padding: 100px 0px !important;
+	}
+}
+
+/* Tablets */
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1024px ){
+	.navbar{
+		margin: 110px 0px !important;
+		.navbar-nav{
+			li{
+				a{
+					margin: 0px 5px !important;
+				}
+			}
+		}
+	}
+	header{
+		padding: 200px 0px !important;
+		h1{
+			font-size: 80px;
+		}
+		h3{
+			padding: 60px 0px !important;
+			font-size: 34px;
+		}
+	}
+	#entry{
+		padding: 200px 0px !important;
+		h2{
+			font-size: 50px;
+		}
+		p{
+			padding: 50px !important;
+			line-height: 30px;
+		}
+	}
+	#divider_ein{
+		h2{
+			font-size: 50px;
+		}
+	}
+	#first_styles{
+		padding: 0px !important;
+	}
+	#divider_zwei{
+		h2{
+			font-size: 50px;
+		}
+	}
+	#second_styles{
+		padding: 0px !important;
+	}
+	#divider_drei{
+		h2{
+			font-size: 50px;
+		}
+	}
+	#third_styles{
+		padding: 0px 0px !important;
+	}
+	#fourth_styles{
+		padding: 0px 0px !important;
+	}
+	#divider_vier{
+		h2{
+			font-size: 50px;
+		}
+	}
+	#pre_footer{
+		h2{
+			font-size: 50px;
+		}
+	}
+}
+
+/* Tablets Landscape */
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1024px )
+and ( orientation: landscape ){
+	.navbar{
+		margin: 60px !important;
+		.navbar-nav{
+			li{
+				a{
+					margin: 0px !important;
+					padding: 10px !important;
+				}
+			}
+		}
+	}
+	header{
+		padding: 130px 0px !important;
+		h1{
+			font-size: 80px;
+		}
+		h3{
+			padding: 60px 0px !important;
+		}
+	}
+	#first_styles{
+		padding: 0px !important;
+	}
+	#divider_ein{
+		padding: 200px 0px !important;
+	}
+	#divider_zwei{
+		padding: 200px 0px !important;
+	}
+	#divider_drei{
+		padding: 200px 0px !important;
+	}
+	#divider_vier{
+		padding: 200px 0px !important;
+	}
+}
+
+/* Laptops and iPads */
+/* Tablets */
+@media screen
+and ( min-width: 1025px )
+and ( max-width: 1444px ){
+	.navbar{
+		margin: 100px 0px !important;
+		.navbar-nav{
+			li{
+				a{
+					padding: 15px 8px !important;
+					margin: 0px 5px !important;
+				}
+			}
+		}
+	}
+	header{
+		padding: 200px 0px !important;
+		h1{
+			font-size: 80px;
+		}
+		h3{
+			padding: 60px 0px !important;
+			font-size: 34px;
+		}
+	}
+	#first_styles{
+		padding: 0px !important;
+	}
+	#second_styles{
+		padding: 0px !important;
+	}
+	#third_styles{
+		padding: 0px !important;
+	}
+	#fourth_styles{
+		padding: 0px !important;
+	}
+}
+
+/* Laptops and iPads Landscape */
+@media screen
+and ( min-width: 1025px )
+and ( max-width: 1444px )
+and ( orientation: landscape ){
+	
+}

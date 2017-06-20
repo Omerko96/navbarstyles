@@ -1,0 +1,46 @@
+/* Mixin for Transition */
+/* Mixin for Transform */
+/* Mixin for Origin */
+/* Animation */
+/* STYLING */
+.navbar {
+  background-color: #ffffff;
+  margin: 50px 0px;
+  border: none; }
+  .navbar .navbar-brand {
+    color: #28a7e9;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    transition: all linear 0.5s; }
+    .navbar .navbar-brand:hover {
+      -webkit-transition: all linear 0.5s;
+      -moz-transition: all linear 0.5s;
+      -ms-transition: all linear 0.5s;
+      -o-transition: all linear 0.5s;
+      transition: all linear 0.5s; }
+  .navbar .navbar-nav li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0px 5px;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    transition: all linear 0.5s; }
+    .navbar .navbar-nav li a:hover {
+      color: #333333;
+      -webkit-transition: all linear 0.5s;
+      -moz-transition: all linear 0.5s;
+      -ms-transition: all linear 0.5s;
+      -o-transition: all linear 0.5s;
+      transition: all linear 0.5s; }
+    .navbar .navbar-nav li a:focus {
+      color: #666666; }

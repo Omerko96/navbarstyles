@@ -1,0 +1,130 @@
+// Welcome to my first insirational project
+// Wish you best of luck
+// Code is handcoded by me
+// Stefan Omerovic
+
+/* Imports */
+@import "colors";
+@import "typography";
+@import "mixins";
+@import "media";
+@import "base";
+@import "nav_styles";
+
+/* Header */
+header{
+	width: 100%;
+	padding: 210px 0px;
+	background-color: $header-bg;
+	h3{
+		padding: 36px 0px;
+	}
+}
+
+/* Entry */
+#entry{
+	width: 100%;
+	padding: 234px 0px;
+	background-color: $entry-bg;
+	p{
+		padding: 36px 0px;
+	}
+}
+
+/* First Navigations */
+#first_styles{
+	width: 100%;
+	background-color: $white;
+	padding: 105px;
+}
+
+/* First Divider */
+#divider_ein{
+	width: 100%;
+	padding: 234px 0px;
+	background-color: $first-divider;
+	p{
+		padding: 36px 0px;
+	}
+}
+
+/* Second Navigations */
+#second_styles{
+	width: 100%;
+	background-color: $white;
+	padding: 105px;
+}
+
+/* Second Divider */
+#divider_zwei{
+	width: 100%;
+	padding: 234px 0px;
+	background-color: $second-divider;
+	p{
+		padding: 36px 0px;
+	}
+}
+
+/* Third Navigations */
+#third_styles{
+	width: 100%;
+	background-color: $white;
+	padding: 105px;
+}
+
+/* Third Divider */
+#divider_drei{
+	width: 100%;
+	padding: 234px 0px;
+	background-color: $third-divider;
+	p{
+		padding: 36px 0px;
+	}
+}
+
+/* Fourth Navigations */
+#fourth_styles{
+	width: 100%;
+	background-color: $white;
+	padding: 105px;
+}
+
+/* Fourth DIvider */
+#divider_vier{
+	width: 100%;
+	padding: 234px 0px;
+	background-color: $fourth-divider;
+	p{
+		padding: 36px 0px;
+	}
+}
+
+/* PreFooter */
+#pre_footer{
+	width: 100%;
+	background-color: $footer-bg;
+	padding: 105px 0px;
+	p{
+		padding: 36px 0px;
+	}
+}
+
+/* Footer */
+footer{
+	width: 100%;
+	background-color: $last-footer;
+	padding: 50px 0px;
+	a{
+		font-size: 20px;
+		margin: 0px 15px;
+		color: $white;
+		&:hover{
+			color: $white;
+			text-decoration: none;
+		}&:active{
+			color: $white;
+		}&:focus{
+			color: $white;
+		}
+	}
+}
