@@ -4,7 +4,7 @@
 ### Some cool animations for navigation links
 ---------------------------------------------
 
-If you want to use some of this *animations*, copy ##navigations.css## file into your project and use IDs, or you could copy code.
+If you want to use some of this *animations*, copy **navigations.css** file into your project and use IDs, or you could copy code.
 
 ### Skills:
 ----------
