@@ -13,5 +13,8 @@ If you want to use some of this *animations*, copy **navigations.css** file into
 * Bootstrap 3
 * Javascript
 * jQuery
+* SASS/SCSS
+
+Project is fully done in SASS. 
 
 Keep in mind that this project works if you use UL (Unordered list).
