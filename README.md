@@ -6,7 +6,7 @@
 
 If you want to use some of this *animations*, copy navigations.css file into your project and use IDs, or you could copy code.
 
-### Skills
+### Skills:
 ----------
 * HTML5
 * CSS3
