@@ -3,7 +3,7 @@
 @import "mixins";
 
 
-/* STYLING */
+/* Base Styling for Each Navigation */
 .navbar{
 	background-color: $white;
 	margin: 50px 0px;
@@ -37,4 +37,17 @@
 			}
 		}
 	}
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar{
+	width: 5px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: $blue;
+    height: 200px;
 }
