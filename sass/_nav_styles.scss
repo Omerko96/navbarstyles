@@ -233,7 +233,7 @@
 			@include transition (all ease 0.3s);
 		}&:hover{
 			&::before{
-				width: 70px;
+				width: 66px;
 				@include transition (all ease 0.3s);
 			}
 		}&::after{
@@ -249,7 +249,7 @@
 			@include transition (all ease 0.3s);
 		}&:hover{
 			&::after{
-				width: 70px;
+				width: 66px;
 				@include transition (all ease 0.3s);
 			}
 		}
@@ -269,7 +269,7 @@
 			font-size: 20px;
 			font-weight: bold;
 			display: inline-block;
-			top: 20%;
+			top: 14%;
 			opacity: 0;
 			@include transition (all ease 0.3s);
 		}&:hover{
@@ -285,7 +285,7 @@
 			font-size: 20px;
 			font-weight: bold;
 			display: inline-block;
-			top: 20%;
+			top: 14%;
 			opacity: 0;
 			@include transition (all ease 0.3s);
 		}&:hover{
@@ -345,9 +345,13 @@
 		a{
 			position: relative;
 			display: inline-block;
+			background-color: transparent;
 			@include transition (all linear 0.4s);
 		}&:hover{
 			box-shadow: inset 100px 0 0 0 $blue;
+			@include transition (all linear 0.4s);
+		}.miraak:hover{
+			color: $white;
 			@include transition (all linear 0.4s);
 		}
 	}
@@ -378,6 +382,9 @@
 			@include transition (all linear 0.7s);
 		}&:hover{
 			box-shadow: inset 0 100px 0 0 $blue;
+			@include transition (all linear 0.7s);
+		}.dragonbane:hover{
+			color: $white;
 			@include transition (all linear 0.7s);
 		}
 	}

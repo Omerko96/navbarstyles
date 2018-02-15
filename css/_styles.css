@@ -682,7 +682,7 @@ p {
   transition: all ease 0.3s; }
 
 #warp li:hover::before {
-  width: 70px;
+  width: 66px;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   -ms-transition: all ease 0.3s;
@@ -714,7 +714,7 @@ p {
   transition: all ease 0.3s; }
 
 #warp li:hover::after {
-  width: 70px;
+  width: 66px;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   -ms-transition: all ease 0.3s;
@@ -733,7 +733,7 @@ p {
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
-  top: 20%;
+  top: 14%;
   opacity: 0;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
@@ -761,7 +761,7 @@ p {
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
-  top: 20%;
+  top: 14%;
   opacity: 0;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
@@ -846,6 +846,7 @@ p {
 #miraak li a {
   position: relative;
   display: inline-block;
+  background-color: transparent;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
   -ms-transition: all linear 0.4s;
@@ -855,6 +856,14 @@ p {
 #miraak li:hover {
   -webkit-box-shadow: inset 100px 0 0 0 #28a7e9;
   box-shadow: inset 100px 0 0 0 #28a7e9;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  transition: all linear 0.4s; }
+
+#miraak li .miraak:hover {
+  color: #ffffff;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
   -ms-transition: all linear 0.4s;
@@ -894,6 +903,14 @@ p {
 #dragonbane li:hover {
   -webkit-box-shadow: inset 0 100px 0 0 #28a7e9;
   box-shadow: inset 0 100px 0 0 #28a7e9;
+  -webkit-transition: all linear 0.7s;
+  -moz-transition: all linear 0.7s;
+  -ms-transition: all linear 0.7s;
+  -o-transition: all linear 0.7s;
+  transition: all linear 0.7s; }
+
+#dragonbane li .dragonbane:hover {
+  color: #ffffff;
   -webkit-transition: all linear 0.7s;
   -moz-transition: all linear 0.7s;
   -ms-transition: all linear 0.7s;
@@ -1685,7 +1702,7 @@ p {
 /* Header */
 header {
   width: 100%;
-  padding: 210px 0px;
+  padding: 200px 0px;
   background-color: #7f8c8d; }
   header h3 {
     padding: 36px 0px; }
@@ -1693,7 +1710,7 @@ header {
 /* Entry */
 #entry {
   width: 100%;
-  padding: 234px 0px;
+  padding: 200px 0px;
   background-color: #2c3e50; }
   #entry p {
     padding: 36px 0px; }
@@ -1707,7 +1724,7 @@ header {
 /* First Divider */
 #divider_ein {
   width: 100%;
-  padding: 234px 0px;
+  padding: 200px 0px;
   background-color: #2980b9; }
   #divider_ein p {
     padding: 36px 0px; }
@@ -1721,7 +1738,7 @@ header {
 /* Second Divider */
 #divider_zwei {
   width: 100%;
-  padding: 234px 0px;
+  padding: 200px 0px;
   background-color: #27ae60; }
   #divider_zwei p {
     padding: 36px 0px; }
@@ -1735,7 +1752,7 @@ header {
 /* Third Divider */
 #divider_drei {
   width: 100%;
-  padding: 234px 0px;
+  padding: 200px 0px;
   background-color: #d35400; }
   #divider_drei p {
     padding: 36px 0px; }
@@ -1749,7 +1766,7 @@ header {
 /* Fourth DIvider */
 #divider_vier {
   width: 100%;
-  padding: 234px 0px;
+  padding: 200px 0px;
   background-color: #1abc9c; }
   #divider_vier p {
     padding: 36px 0px; }
